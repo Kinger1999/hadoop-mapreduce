@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="com.kinger.hive.udf.SimpleSchemaRegistryTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="com.kinger.hive.udf.SimpleSchemaRegistryTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib"/>
@@ -69,10 +69,10 @@
   <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="returnConstructorSpecifiedSchemaAsURLTest" time="0"/>
   <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="emptyConstructorReturnsNoValidSchemaException" time="0.001"/>
   <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="emptySchemaNameAsStringReturnsNullTest" time="0"/>
-  <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="returnMethodSpecifiedSchemaAsURLTest" time="0.001"/>
+  <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="returnMethodSpecifiedSchemaAsURLTest" time="0"/>
   <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="validConstructorDoesNotReturnNoValidSchemaException" time="0.001"/>
   <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="emptySchemaNameAsURLReturnsNullTest" time="0"/>
-  <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="returnConstructorSpecifiedSchemaAsStringTest" time="0.001"/>
+  <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="returnConstructorSpecifiedSchemaAsStringTest" time="0"/>
   <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="returnMethodSpecifiedSchemaAsInputStreamTest" time="0"/>
-  <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="emptySchemaNameAsInputStreamReturnsNullTest" time="0"/>
+  <testcase classname="com.kinger.hive.udf.SimpleSchemaRegistryTest" name="emptySchemaNameAsInputStreamReturnsNullTest" time="0.001"/>
 </testsuite>

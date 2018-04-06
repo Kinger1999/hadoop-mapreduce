@@ -2,40 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936e0163-9ed6-4bfe-b0df-82a682e8bcbb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hadoop-mapreduce.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hadoop-mapreduce.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/job/JDBCImportJob.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/lib/map/JDBCImportMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/lib/partitioner/JDBCEvenPartitioner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/lib/reduce/JDBCImportReducer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/utils/DAOManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/utils/JDBCImportConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/utils/MySQLConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hive/udf/GeohashDecodeUDF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hive/udf/GeohashDistanceUDF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hive/udf/GeohashEncodeUDF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hive/udf/GeohashNeighborsUDF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hive/udf/JsonSchemaValidatorUDF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/hive/udf/JsonSimpleSchemaRegistryUDF.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/schema/NoValidSchemaException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/schema/SimpleSchemaRegistry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kinger/schema/SimpleSchemaRegistryMap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mysql.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/schemas/product-ingest-schema.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/GeohashDecodeUDFTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/GeohashEncodeUDFTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/GeohashNeighborsUDFTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/GeohashUDFTestSuite.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/JsonSchemaRegistryUDFTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/JsonSchemaValidatorUDFTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/SimpleSchemaRegistryTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/data/product-ingest-invalid-data.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/data/product-ingest-valid-data.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/schemas/product-ingest-schema.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/target/hadoop-utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/hadoop-utils-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashDecodeUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashDecodeUDFTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashEncodeUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashEncodeUDFTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaRegistryUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaRegistryUDFTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaValidatorUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaValidatorUDFTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.SimpleSchemaRegistryTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.SimpleSchemaRegistryTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashDecodeUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashDecodeUDFTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashEncodeUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashEncodeUDFTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaRegistryUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaRegistryUDFTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaValidatorUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaValidatorUDFTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.SimpleSchemaRegistryTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.SimpleSchemaRegistryTest.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeohashDecodeUDFTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/GeohashDecodeUDFTest.java">
+      <file leaf-file-name="jdbc_import_example.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -76,7 +54,15 @@
       <projects_view />
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc_import_example" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
     <option name="y" value="43" />
     <option name="width" value="1400" />
@@ -164,6 +150,13 @@
               <item name="hadoop-mapreduce" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-mapreduce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,36 +173,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-mapreduce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kinger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-mapreduce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kinger" type="462c0819:PsiDirectoryNode" />
-              <item name="hive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-mapreduce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kinger" type="462c0819:PsiDirectoryNode" />
-              <item name="hive" type="462c0819:PsiDirectoryNode" />
-              <item name="udf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +296,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="789" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -347,7 +311,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -378,10 +342,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ibotta/hive/udf/GeohashDecodeUDFTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kinger/hive/udf/GeohashDecodeUDFTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc_import_example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
