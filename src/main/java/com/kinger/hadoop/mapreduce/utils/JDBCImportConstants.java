@@ -13,5 +13,6 @@ public class JDBCImportConstants {
     public static final String JDBC_URL = "jdbc.url";
     public static final String WHERE_CLAUSE = "table.where.clause";
     public static final String OUTPUT_COMPRESSION = "output.compression";
+    public static final String SHUFFLE_SPLITS = "shuffle.splits";
 
 }

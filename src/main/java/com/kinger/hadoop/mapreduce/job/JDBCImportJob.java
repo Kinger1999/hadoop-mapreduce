@@ -64,6 +64,7 @@ public class JDBCImportJob extends Configured implements Tool {
         String outputCompression = conf.get(JDBCImportConstants.OUTPUT_COMPRESSION, "snappy").toLowerCase();
         long inputMinSplitSize = conf.getInt(FileInputFormat.SPLIT_MINSIZE, 0);
         long inputMaxSplitSize = conf.getInt(FileInputFormat.SPLIT_MAXSIZE, 10*1024*1024);
+        boolean shuffleSplits = conf.getBoolean(JDBCImportConstants.SHUFFLE_SPLITS, false);
 
         LOG.info("Mapper Memory MB: " + conf.get(MRJobConfig.MAP_MEMORY_MB));
         LOG.info("Reducer Memory MB: " + conf.get(MRJobConfig.REDUCE_MEMORY_MB));
@@ -133,7 +134,8 @@ public class JDBCImportJob extends Configured implements Tool {
 
         FSDataOutputStream out = outputfs.create(splitPath);
 
-        List<String> splits = getSplits(user, password, url, database, table, splitSize, pkey, whereClause);
+        List<String> splits = getSplits(user, password, url, database, table,
+                splitSize, pkey, whereClause, shuffleSplits);
 
         for (String split : splits) {
             out.write(split.getBytes());
@@ -185,7 +187,8 @@ public class JDBCImportJob extends Configured implements Tool {
 
     }
 
-    private static List<String> getSplits(String user, String password, String url, String database, String table, long split_size, String pkey, String whereClause)
+    private static List<String> getSplits(String user, String password, String url, String database, String table,
+                                          long split_size, String pkey, String whereClause, boolean shuffle)
             throws SQLException, ClassNotFoundException {
 
         List<String> splits = new ArrayList<String>();
@@ -242,7 +245,8 @@ public class JDBCImportJob extends Configured implements Tool {
         conn.close();
 
         LOG.info("Number of SQL splits: " + splits.size());
-        Collections.shuffle(splits);
+        if (shuffle)
+            Collections.shuffle(splits);
         return splits;
 
     }
