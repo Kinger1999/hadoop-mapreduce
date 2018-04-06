@@ -1,7 +1,0 @@
-/Users/jking/IdeaProjects/hadoop-mapreduce/src/test/java/com/kinger/hive/udf/GeohashEncodeUDFTest.java
-/Users/jking/IdeaProjects/hadoop-mapreduce/src/test/java/com/kinger/hive/udf/GeohashUDFTestSuite.java
-/Users/jking/IdeaProjects/hadoop-mapreduce/src/test/java/com/kinger/hive/udf/JsonSchemaRegistryUDFTest.java
-/Users/jking/IdeaProjects/hadoop-mapreduce/src/test/java/com/kinger/hive/udf/GeohashDecodeUDFTest.java
-/Users/jking/IdeaProjects/hadoop-mapreduce/src/test/java/com/kinger/hive/udf/GeohashNeighborsUDFTest.java
-/Users/jking/IdeaProjects/hadoop-mapreduce/src/test/java/com/kinger/hive/udf/JsonSchemaValidatorUDFTest.java
-/Users/jking/IdeaProjects/hadoop-mapreduce/src/test/java/com/kinger/hive/udf/SimpleSchemaRegistryTest.java

@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="936e0163-9ed6-4bfe-b0df-82a682e8bcbb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt" afterPath="$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt" />
-      <change beforePath="$PROJECT_DIR$/target/hadoop-utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/hadoop-utils-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashDecodeUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashDecodeUDFTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaRegistryUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaRegistryUDFTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaValidatorUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaValidatorUDFTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.SimpleSchemaRegistryTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.SimpleSchemaRegistryTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashDecodeUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashDecodeUDFTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaRegistryUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaRegistryUDFTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaValidatorUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaValidatorUDFTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.SimpleSchemaRegistryTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.SimpleSchemaRegistryTest.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

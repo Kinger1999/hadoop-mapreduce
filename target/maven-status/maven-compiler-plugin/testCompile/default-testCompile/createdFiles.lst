@@ -1,7 +1,0 @@
-com/kinger/hive/udf/GeohashUDFTestSuite.class
-com/kinger/hive/udf/GeohashDecodeUDFTest.class
-com/kinger/hive/udf/GeohashEncodeUDFTest.class
-com/kinger/hive/udf/GeohashNeighborsUDFTest.class
-com/kinger/hive/udf/JsonSchemaRegistryUDFTest.class
-com/kinger/hive/udf/JsonSchemaValidatorUDFTest.class
-com/kinger/hive/udf/SimpleSchemaRegistryTest.class
