@@ -1,14 +1,14 @@
 hadoop jar
 s3://<bucket>/jars/hadoop-utils-1.0-SNAPSHOT.jar
-com.ibotta.hadoop.mapreduce.job.JDBCImportJob
+com.kinger.hadoop.mapreduce.job.JDBCImportJob
 -Djdbc.url="<jdbc url>
 -Dtable.name="<table>"
--Doutput.compression=<gzip|bzip2|snappy>
+-Doutput.compression="<gzip|bzip2|snappy>""
 -Dtable.primary.key="id"
 -Ddatabase.name="<db>"
 -Duser="<user>"
 -Dpassword="<password>"
--Doutput.location=<hdfs/s3 location>
+-Doutput.location="<hdfs/s3 location>""
 -Dtable.split.size=100000
 -Dmapred.reduce.tasks=1
 -Dmapreduce.map.memory.mb=4096

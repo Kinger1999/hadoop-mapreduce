@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="936e0163-9ed6-4bfe-b0df-82a682e8bcbb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt" afterPath="$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt" />
       <change beforePath="$PROJECT_DIR$/target/hadoop-utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/hadoop-utils-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashDecodeUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashDecodeUDFTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashEncodeUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.GeohashEncodeUDFTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaRegistryUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaRegistryUDFTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaValidatorUDFTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.JsonSchemaValidatorUDFTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.SimpleSchemaRegistryTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kinger.hive.udf.SimpleSchemaRegistryTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashDecodeUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashDecodeUDFTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashEncodeUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.GeohashEncodeUDFTest.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaRegistryUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaRegistryUDFTest.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaValidatorUDFTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.JsonSchemaValidatorUDFTest.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.SimpleSchemaRegistryTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kinger.hive.udf.SimpleSchemaRegistryTest.txt" />
@@ -38,7 +37,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCImportJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/job/JDBCImportJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-164">
+              <caret line="204" column="24" lean-forward="false" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -145,6 +154,18 @@
               <item name="kinger" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kinger" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-mapreduce" type="b2602c69:ProjectViewProjectNode" />
@@ -373,10 +394,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kinger/hadoop/mapreduce/job/JDBCImportJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="204" column="24" lean-forward="false" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc_import_example.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>
